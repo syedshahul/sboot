@@ -1,9 +1,14 @@
-Wiki
+#Wiki
 
 Maven Build
 ============
 ```
 mvn clean install
+```
+Run Spring Boot App
+===================
+```
+./mvnw spring-boot:run
 ```
 Build Docker Image using Dockerfile
 ====================================
