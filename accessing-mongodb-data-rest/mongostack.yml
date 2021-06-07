@@ -1,4 +1,9 @@
 services:
+  app:
+    image: monnashahul/spring-mongodb-rest
+    ports: ['8080:8080']
+    restart: always
+    depends_on: [mongo]
   mongo:
     image: mongo
     ports: ['27017:27017']
